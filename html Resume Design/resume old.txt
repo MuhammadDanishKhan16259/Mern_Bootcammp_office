@@ -1,0 +1,45 @@
+ "emmet.includeLanguages": {"javascript": "javascriptreact"},
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESUME</title>
+</head>
+<body>
+    <hr />
+  <h1 style="text-align: center;">Resume</h1>
+  <h1 style="text-align: center;">Danish Khan</h1>
+  <hr />
+  <h1 >Objective</h1>
+  <p>“To use my skills in the best possible way for achieving the <b>company’s</b> goal”.I can implement efftive marketing strategies at local and global values</p>
+  <ul>
+    <h1 >Skills and Abilities</h1>
+    <li>java</li>
+    <li>javascipt</li>
+    <li>Phyton</li>
+    <li>Html</li>
+    <li>Css</li>
+  </ul>
+  <h1>Education</h1>
+  <ul>
+    <li>MATRICULATION FROM COSMOPOLITAN ACADEMY </li>
+    <li>INTERMEDIATE FROM JINNAH GOVT COLLEGE NAZIMABAD</li>
+    <li>BACHELOR FROM IQRA UNIVERSITY  </li>
+  </ul>
+  <h1>Interest and Hobbies</h1>
+  <ul>
+      <li>Programming</li>
+      <li>Cricket</li>
+      <li>Books</li>
+      <li>Gaming</li>
+  </ul>
+  <h1>Personal Information</h1>
+  <ul>
+      <li>DATE OF BIRTH: 25-October-1999</li>
+      <li>Religion: Islam</li>
+      <li>Birth: Karachi</li>
+      <li>Nationality: Pakistani</li>
+  </ul>
+</body>
