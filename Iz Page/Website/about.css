@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    background-color:dodgerblue;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 5px solid steelblue;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    /* border: 1px azure solid; */
+    text-align: center;
+}
+.logo{
+    color: white;
+    font-size: 1rem;
+    border: 2px solid steelblue;
+    padding: 15px;
+    font-family: monospace;
+    border-radius: 100px;
+}
+
+.nav-item{
+margin: 0 10px;
+border-radius: 100px;
+padding: 10px;
+
+}
+.logo:hover{
+    background-color:black;
+    color:azure;
+}
+.section-header{
+    width: 100%;
+    height: 50px;
+}
+li{
+padding-top: 10px;
+padding-bottom: 10px;
+border: 2px solid steelblue;
+}
+li:hover{
+    background-color:black;
+}
+
+
+a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family:monospace;
+    padding: 10px;
+}
+
+.main-section{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap:20px;
+    background-color: dodgerblue;
+    border-radius: 30px;
+    color: azure;
+}
+.aside-section{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap:20px;
+    background-color:dodgerblue;
+    border-radius: 30px;
+    color: azure;
+}
+
+.right{
+    justify-content: flex-start;
+    margin-right: 10px ;
+    width: 20vw;
+    font-size: 20px;
+}
+.left{
+    justify-content: flex-start;
+    margin-left: 10px;
+    width: 20vw;
+    font-size: 20px;
+}
+.aboutus-page{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    padding: 10px;
+    /* align-items: stretch; */
+    gap: 20px;
+    /* background-color: aqua; */
+}
+
+.main-heading{
+padding-top: 120px;
+text-align: center;
+color:dodgerblue;
+font-weight: bold;
+}
+
+.post-section{
+    display: flex;
+    gap: 10px;
+}
+
+.post-section article{
+    border-radius: 10px;
+    padding:10px;
+    background-color:steelblue;
+}
+
+.posts{
+    padding: 30px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+.post-heading{
+    padding: 20px;
+    background-color: dodgerblue;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+/* fotter */
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    background-color:dodgerblue;
+    border-top: 3px solid steelblue;
+}
+footer img{
+    border:3px solid azure;
+    border-radius: 0;
+}
+
+footer h1{
+    color: azure;
+    font-family: monospace;
+}

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Izaan BootCamp Class</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>IzaanArain</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./product.html">Product</a></li>
+                <li><a href="./services.html">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="section-header">
+            <h1 style="color:red;background-color:azure;" class="main-heading">Main Section</h1>
+        </div>
+        <section class="main-section">
+            <article class="ms">
+                <h1>Heading</h1>
+                <img src="./assets/pasta.jpg" alt="pasta" height="300" width="400">
+                <p>
+                    <b>Lorem ipsum dolor sit amet consectetur adipisicing elit</b>
+                    . Accusamus odio accusantium vero blanditiis reprehenderit
+                     neque impedit dicta tenetur labore dignissimos? Commodi, 
+                     <strong>odit eligendi hic exercitationem quasi facere laudantium 
+                     debitis reiciendis blanditiis rerum doloremque facilis</strong> 
+                     ducimus dignissimos numquam animi. Quaerat maiores 
+                     consequuntur iure obcaecati praesentium dolor recusandae 
+                     error modi repellendus aperiam!
+                    </p>
+            </article>
+
+            <article class="ms">
+                <h1>Heading</h1>
+                <img src="./assets/roti.jpg" alt="pasta" height="300" width="400">
+                <p>
+                    <b>Lorem ipsum dolor sit amet consectetur adipisicing elit</b>
+                    . Accusamus odio accusantium vero blanditiis reprehenderit
+                     neque impedit dicta tenetur labore dignissimos? Commodi, 
+                     <strong>odit eligendi hic exercitationem quasi facere laudantium 
+                     debitis reiciendis blanditiis rerum doloremque facilis</strong> 
+                     ducimus dignissimos numquam animi. Quaerat maiores 
+                     consequuntur iure obcaecati praesentium dolor recusandae 
+                     error modi repellendus aperiam!
+                    </p>
+            </article>
+
+            <article class="ms">
+                <h1>Heading</h1>
+                <img src="./assets/salad.jpg" alt="pasta" height="300" width="400">
+                <p>
+                    <b>Lorem ipsum dolor sit amet consectetur adipisicing elit</b>
+                    . Accusamus odio accusantium vero blanditiis reprehenderit
+                     neque impedit dicta tenetur labore dignissimos? Commodi, 
+                     <strong>odit eligendi hic exercitationem quasi facere laudantium 
+                     debitis reiciendis blanditiis rerum doloremque facilis</strong> 
+                     ducimus dignissimos numquam animi. Quaerat maiores 
+                     consequuntur iure obcaecati praesentium dolor recusandae 
+                     error modi repellendus aperiam!
+                    </p>
+            </article>
+        </section>
+
+        <section class="table-section">
+            <table style="background-color:tomato;" width="80%" >
+                <caption>Izaan Saqib</caption>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Contact</th>
+                    <th>City</th>
+                </tr>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Izaan</td>
+                        <td>Izaan@mail.com</td>
+                        <td>09876540</td>
+                        <td>Karachi</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Izaan</td>
+                        <td>Izaan@mail.com</td>
+                        <td>09876540</td>
+                        <td>Karachi</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Izaan</td>
+                        <td>Izaan@mail.com</td>
+                        <td>09876540</td>
+                        <td>Karachi</td>
+                    </tr>
+                </tbody> 
+                <tfoot>
+                    <th>Message</th>
+                    <td colspan="4">Hello!</td>
+                </tfoot>
+            </table>
+
+        </section>
+
+        <section class="form-section">
+            <form class="form-group">
+                <div  style="text-align: center;font-size: 30px;color: tomato;"class="form header">
+                    <h1 style="text-decoration:underline;margin-bottom:30px;"> My Form:</h1>
+                </div>
+                <div class="row">
+                    <label for="fname">First Name: </label>
+                    <input type="text" id="fname" name="fname" maxlength="15" required>
+                </div>
+                <div class="row">
+                    <label for="lname">Last Name: </label>
+                    <input type="text" id="lname" name="lname" maxlength="20" required>
+                </div>
+                <div class="row">
+                    <label for="email">Eamil: </label>
+                    <input type="email" id="email" name="email" maxlength="20" required placeholder="izaan@email.com">
+                </div>
+                <div class="row">
+                    <label for="password">Password: </label>
+                    <input type="password" id="password" name="password" maxlength="20" required>
+                </div>
+                <div class="row">
+                    <label for="cpass">Confirm Password: </label>
+                    <input type="password" id="cpass" name="cpass" maxlength="20" required>
+                </div>
+                <div class="row">
+                    <label for="contactNum">Contact Number: </label>
+                    <input type="number" id="contactNum" maxlength="20" name="contactNum">
+                </div>
+                <div class="row">
+                    <label for="gender">Gender:</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br>
+                </div>
+                <div class="row">
+                    <label for="city">Pick a City:</label>
+                <select name="city" id="city">
+                    <option value="karachi">Karachi</option>
+                    <option value="islamabad">Islamabad</option>
+                    <option value="Lahore">Lahore</option>
+                    <option value="peshawar">peshawar</option>
+                    <option value="quetta">Quetta</option>
+                </select>
+                </div>
+                <div class="row submit">
+                    <input type="submit" id="submitBtn" name="submitBtn" value="Submit">
+                </div>
+            </form>
+        </section>
+
+        <div class="aside-header">
+            <h1>Aside Section</h1>
+        </div>
+
+        <aside class="aside-section">
+            <article class="as">
+                <h1>Heading</h1>
+                <img src="./assets/gif1.gif" alt="gif " height="500" width="500">
+                <p>
+                    <b>Lorem ipsum dolor sit amet consectetur adipisicing elit</b>
+                    . Accusamus odio accusantium vero blanditiis reprehenderit
+                     neque impedit dicta tenetur labore dignissimos? Commodi, 
+                     <strong>odit eligendi hic exercitationem quasi facere laudantium 
+                     debitis reiciendis blanditiis rerum doloremque facilis</strong> 
+                     ducimus dignissimos numquam animi. Quaerat maiores 
+                     consequuntur iure obcaecati praesentium dolor recusandae 
+                     error modi repellendus aperiam!
+                    </p>
+            </article>
+
+            <article class="as">
+                <h1>Heading</h1>
+                <img src="./assets/gif2.gif" alt="gif " height="500" width="500">
+                <p>
+                    <b>Lorem ipsum dolor sit amet consectetur adipisicing elit</b>
+                    . Accusamus odio accusantium vero blanditiis reprehenderit
+                     neque impedit dicta tenetur labore dignissimos? Commodi, 
+                     <strong>odit eligendi hic exercitationem quasi facere laudantium 
+                     debitis reiciendis blanditiis rerum doloremque facilis</strong> 
+                     ducimus dignissimos numquam animi. Quaerat maiores 
+                     consequuntur iure obcaecati praesentium dolor recusandae 
+                     error modi repellendus aperiam!
+                    </p>
+            </article>
+        </aside>
+
+        <section>
+            <article class="thirdsec">
+                <div class="lastarticle">
+                    <h1>Heading</h1>
+                <p>
+                    <b>Lorem ipsum dolor sit amet consectetur adipisicing elit</b>
+                    . Accusamus odio accusantium vero blanditiis reprehenderit
+                     neque impedit dicta tenetur labore dignissimos? Commodi, 
+                     <strong>odit eligendi hic exercitationem quasi facere laudantium 
+                     debitis reiciendis blanditiis rerum doloremque facilis</strong> 
+                     ducimus dignissimos numquam animi. Quaerat maiores 
+                     consequuntur iure obcaecati praesentium dolor recusandae 
+                     error modi repellendus aperiam!
+                    </p>
+                </div>
+                    <img src="./assets/react.gif" alt="gif " height="600" width="400" class="imglast">
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+        <div>
+            <img src="./assets/IA-logo.jpg" alt="my logo" height="50px" width="50px">
+        </div>
+        <h1>&copy CopyRight IzaanArain</h1>
+    </footer>
+</body>
+</html>
