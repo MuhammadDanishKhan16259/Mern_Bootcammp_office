@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Size units</title>
+    <style>
+      html {
+        font-size: 25px;
+      }
+      .container {
+        /* width: 400px;
+        height: 344px; */
+        height: 90vh;
+        width: 90vw;
+        font-size: 10px;
+        border: 2px solid red;
+      }
+      h1 {
+        text-align: center;
+      }
+      #first {
+        /* font-size: 3em;
+        padding: 3em; */
+      }
+      #second {
+        /* font-size: 3rem;
+        padding: 3rem; */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- em unit yeh kam krti h jo b parents CONTAINER HAI usky relative font size
+    set krdeti h 
+em ka use yeh b h jesi hi parents element resize hu usky hisab sy hi child element b resize ho resizing like apny dom sy element remove krdiya js ki use sy koi node delete krna-->
+    <!-- rem yeh krta h jo base html html tag jo root element h usky font size ky  relative khud ko resize kr leta h-->
+    <!-- 
+    vh full web page height leta h 
+    vw full web page width leta h -->
+    <div class="container">
+      <h1 id="first">This is a First Heading</h1>
+      <h1 id="second">This is a Second Heading</h1>
+
+      <h1 id="third">This is a Third Heading</h1>
+    </div>
+  </body>
+</html>
