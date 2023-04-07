@@ -6,3 +6,6 @@ flex-flow: column-reverse wrap-reverse;
 align-items: flex-end;
 justify-content: center;
 align-content: space-between;	
+
+7 APril
+Website layout header links navbar,brand name ,pages ,body section mai 2 do sections ,aside,footer

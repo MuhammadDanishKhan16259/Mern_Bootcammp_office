@@ -1,0 +1,58 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  --button-size: 60px;
+  --button-margin: 6px;
+}
+
+.calculator {
+  margin: auto;
+  background: black;
+  width: calc(var(--button-size) * 4 + var(--button-margin) * 8);
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-weight: 100;
+}
+
+.calculator input {
+  color: white;
+  width: 100%;
+  background: none;
+  border: none;
+  font-size: 64px;
+  text-align: right;
+  margin: 0 18px;
+  font-weight: 100;
+}
+
+.calculator button {
+  color: white;
+  width: var(--button-size);
+  height: var(--button-size);
+  font-size: 32px;
+  font-weight: 100;
+
+  background: gray;
+  border: none;
+  border-radius: var(--button-size);
+  width: var(--button-size);
+  height: var(--button-size);
+  margin: var(--button-margin);
+}
+
+.calculator button.wide {
+  width: calc((var(--button-size) + var(--button-margin)) * 2);
+}
+
+.calculator .function {
+  background: lightgray;
+  color: black;
+}
+
+.calculator .operation {
+  background: orange;
+}

@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+/* .container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 100%;
+} */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  padding: 0px 10px;
+}
+ul {
+  list-style-type: none;
+}
+.nav-opt {
+  display: inline-block;
+  margin: 10px 0px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.nav-opt1 {
+  text-decoration: none;
+  list-style: none;
+  padding: 10px;
+}
+.drop-down {
+  position: absolute;
+  top: 70px;
+  height: 0px;
+  display: none;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  overflow: hidden;
+  align-self: center;
+  transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.nav-opt:hover,
+.nav-opt1:hover {
+  background-color: #61d2b4;
+  cursor: pointer;
+}
+
+#main-heading {
+  height: 100%;
+  display: flex;
+  margin: 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#heading {
+  color: white;
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  text-align: center;
+}
+#down-btn {
+  text-decoration: none;
+  color: #fff;
+  background-color: #61d2b4;
+  border-radius: 20px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  transition: all 0.2s linear;
+  padding: 10px 50px;
+  border: 1px solid #61d2b4;
+  /* position: relative;
+  z-index: 1;
+  border-radius: 30px; */
+}
+#down-btn:hover {
+  background-color: #7ca99d;
+}
+#header-image {
+  background: url("../img/back.jpg") fixed no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  color: #fff;
+  height: 530px;
+  width: 100%;
+}
+/* .nav-opt {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+} */
