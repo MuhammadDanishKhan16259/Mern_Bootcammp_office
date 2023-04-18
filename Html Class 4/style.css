@@ -12,7 +12,7 @@ div {
 header {
   width: 100%;
   position: fixed;
-  background-color: tomato;
+  background-color: rgb(11, 9, 9);
   padding: 20px;
   display: flex;
   justify-content: space-around;

@@ -1,0 +1,71 @@
+// console.log('\n*********');
+
+// // function SubFunction() {
+// //   console.log('Hello1');
+// //   console.log('Hello2');
+// //   console.log('Hello3');
+// // }
+
+// function SubFunction(a1, a2, a3) {
+//   console.log('Hello' + a1);
+//   console.log('Hello2' + a2);
+//   console.log('Hello3' + a3);
+// }
+
+// function MyName(a) {
+//   //Higher Order Function
+//   // a = SubFunction
+
+//   a(1, 'sdaasd', 'saadssad');
+// }
+
+// MyName((a1, a2, a3)=> {
+//   console.log('Hello' + a1);
+//   console.log('Hello2' + a2);
+//   console.log('Hello3' + a3);
+// });
+
+// let myarr = ['1', 'Hello2', '3'];
+
+// let second = myarr[1]; //Hello2
+
+// let myobj = {
+//   //Key : Value
+//   one: 1,
+//   hellokey: 'hello',
+//   three: 3,
+// };
+// let value = myobj.one;
+// //let value = myobj['one'];
+
+// console.log(value);
+
+//arr = [1,2,5,8,9]; //0-4
+//newarr = [];
+
+//Without Map
+// for (let i = 0; i < arr.length; i++) {
+//   //0
+//   newarr.push(arr[i] + 1);
+// }
+// console.log('arr');console.log(arr);
+// console.log('newarr');console.log(newarr);
+
+//WithMap
+// function MyFunc(item){
+//   console.log(item);
+// }
+// arr.map(MyFunc);
+arr = [
+  ['Bilal', 'Khan', 1, 4],
+  ['Fawad', 'Alam', 2, 5],
+  ['Shahid', 'Afridi', 3, 5],
+];
+console.log(arr[0]);
+// a
+let newarr = arr.map((a, b) => {
+  console.log('**********');
+  return a[1];
+});
+
+console.log(newarr);

@@ -1,0 +1,71 @@
+
+let value = 34
+if((value%2)==0){
+console.log("EV")
+}
+else{
+console.log("odd")
+}
+
+
+for(let i=0;i<=s1.length-1;i++){
+console.log(i + " "+s1[i])
+}
+
+w3Resoursce
+
+
+// let arr = ['ssdas', 'dsdsd', 'wewe'];
+
+// let s1 = 'bilala'; //bilbla
+// let newStr =s1.replace('a',"b");
+// console.log(newStr);
+// s1=newStr
+// console.log(s1);
+//SLICE
+
+// let newStr = s1.slice(0, 3) + 'b' + s1.slice(4, 6);
+// console.log(newStr);
+// let s2 = 'MyNameIsBilal'; //MyNameIsBibl
+// console.log(s2);
+// let newStr2 = s2.slice(0, 10) + 'b' + s2.slice(12);
+// console.log(newStr2);
+
+
+// console.log('EVEN');
+
+// console.log(i + ' ' + s1[i]);
+// if (s1[i] % 2 == 0) {
+//   console.log(i + ' ' + s1[i]);
+// }
+
+// let value = 34;
+// if (value % 2 == 0) {
+//   console.log('EVEN');
+// } else {
+//   console.log('odd');
+// }
+
+//EVEM
+// let s1 = 'MyNameIsBilal';
+
+// for (let i = 0; i < s1.length; i++) {
+ 
+//   if (i % 2 == 0) {
+//     console.log(i + ' ' + s1[i]);
+   
+//   }
+// }
+
+// ODD
+
+
+let s1 = 'MyNameIsBilal';
+
+for (let i = 0; i < s1.length; i++) {
+ 
+  if (i % 2 == 1) {
+    console.log(i + ' ' + s1[i]);
+   
+  }
+}
